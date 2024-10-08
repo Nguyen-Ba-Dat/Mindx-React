@@ -25,7 +25,7 @@ const Details = () => {
 
   useEffect(() => {
     fetchMovie(params.movieId);
-  }, [movie]);
+  }, []);
 
   return (
     <div>
